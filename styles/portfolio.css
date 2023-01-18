@@ -1,0 +1,22 @@
+/*
+Font families
+
+font-family: 'Playfair Display',
+serif;
+font-family: 'Source Sans Pro',
+sans-serif;
+
+*/
+
+body {
+    background-color: rgb(102, 206, 102);
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
