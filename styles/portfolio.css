@@ -41,31 +41,6 @@ a {
 
 }
 
-
-@media (min-width: 885px) {
-    h1 {
-        font-size: 60px;
-    }
-}
-
-@media (min-width: 885px) {
-    h2 {
-        font-size: 40px;
-    }
-}
-
-@media (min-width: 885px) {
-    h5 {
-        font-size: 24px;
-    }
-}
-
-@media (min-width: 885px) {
-    p, a {
-        font-size: 20px;
-    }
-}
-
 .body {
     background: linear-gradient(#ffffff, #fd9393);
 }
@@ -107,8 +82,8 @@ a {
 }
 
 .logos {
-   margin: 0px auto;
-   text-align: center;
+    margin: 0px auto;
+    text-align: center;
     object-fit: cover;  
 }
 
@@ -194,12 +169,7 @@ footer .email-link {
     font-size: 3vw;
 }
 
-@media (min-width: 885px) {
 
-    footer .email-link {
-        font-size: 20px;
-    }
-}
 
 footer .email-link:hover {
     color: var(--branding-color);
@@ -230,21 +200,12 @@ footer .social-links a:hover {
     
 }
 
-
-
-
 .decor button{
     width: 90%;
 }
 
 .decor button:hover {
     background: #3e4f24;
-}
-
-@media (min-width: 568px) {
-    form {
-        width: 100%;
-    }
 }
 
 .form-inner {
@@ -260,3 +221,29 @@ footer .social-links a:hover {
     border: none;
     border-radius: 15px;
 }
+
+@media (min-width: 885px) {
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    h5 {
+        font-size: 24px;
+    }
+    p, a {
+        font-size: 20px;
+    }
+    footer .email-link {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 568px) {
+    form {
+        width: 100%;
+    }
+}
+
+
